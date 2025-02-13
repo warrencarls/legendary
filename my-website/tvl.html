@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVL - Technical-Vocational-Livelihood</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('school-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero {
+            padding: 80px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .tracks {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .track-card {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .track-card:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        .track-card h3 {
+            margin: 0 0 10px;
+            font-size: 22px;
+        }
+        .track-card p {
+            font-size: 16px;
+        }
+        .footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Back to Home</a>
+    </div>
+    <div class="hero">
+        <h2>Technical-Vocational-Livelihood (TVL) Strand</h2>
+        <p>Choose from specialized tracks that prepare you for practical careers.</p>
+    </div>
+    <div class="tracks">
+        <div class="track-card">
+            <h3>Home Economics (HE)</h3>
+            <p>Focuses on household management, culinary, and hospitality skills.</p>
+        </div>
+        <div class="track-card">
+            <h3>Information and Communication Technology (ICT)</h3>
+            <p>Develops skills in programming, networking, and digital systems.</p>
+        </div>
+        <div class="track-card">
+            <h3>Industrial Arts (IA)</h3>
+            <p>Provides hands-on training in carpentry, welding, and automotive work.</p>
+        </div>
+        <div class="track-card">
+            <h3>Agri-Fishery Arts (AFA)</h3>
+            <p>Specializes in agriculture, farming techniques, and fisheries.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Rosales National High School. All rights reserved.</p>
+    </div>
+</body>
+</html>

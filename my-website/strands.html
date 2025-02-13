@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosales National High School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background: url('school-background.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px;
+            width: 100%;
+        }
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .strands {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            width: 80%;
+            flex-wrap: wrap;
+        }
+        .box {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            width: 30%;
+        }
+        .box a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        .box a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>
+            Rosales National High School
+        </h1>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="strands.html">Strands</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="hero" id="about">
+        <h2>Welcome to Rosales National High School</h2>
+        <p>Providing quality education and preparing students for a brighter future.</p>
+    </div>
+
+    <div class="strands">
+        <div class="box">
+            <a href="stem.html">
+                <h2>STEM</h2>
+                <p>Science, Technology, Engineering, and Mathematics strand for students inclined towards innovation and problem-solving.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="tvl.html">
+                <h2>TVL</h2>
+                <p>Technical-Vocational-Livelihood strand offering practical skills in ICT, Home Economics, and Industrial Arts.</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="abm.html">
+                <h2>ABM</h2>
+                <p>Accountancy, Business, and Management strand for students interested in entrepreneurship and corporate careers.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Rosales National High School. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

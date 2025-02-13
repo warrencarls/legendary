@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosales National High School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background: url('school-background.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px;
+            width: 100%;
+        }
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .mission-vision {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            width: 80%;
+        }
+        .box {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            width: 45%;
+        }
+        .box img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>
+            <img src="logo.png" alt="Rosales National High School Logo">
+            Rosales National High School
+        </h1>
+        <ul>
+            <li><a href=".html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="strands.html">Strands</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="hero" id="about">
+        <h2>Welcome to Rosales National High School</h2>
+        <p>Providing quality education and preparing students for a brighter future.</p>
+    </div>
+
+    <div class="mission-vision">
+        <div class="box">
+            <img src="logo.png" alt="School Logo">
+            <h2>Mission</h2>
+            <p>To provide high-quality education that nurtures the intellectual and moral growth of students, preparing them for future success.</p>
+        </div>
+        <div class="box">
+            <img src="logo.png" alt="School Logo">
+            <h2>Vision</h2>
+            <p>To be a leading institution in academic excellence, fostering a community of lifelong learners committed to innovation and integrity.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Rosales National High School. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

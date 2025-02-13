@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosales National High School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background: url('school-background.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px;
+            width: 100%;
+        }
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar h1 {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            padding: 50px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .facilities {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .facility {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+            color: black;
+        }
+        .facility img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>
+            <img src="logo.png" alt="Rosales National High School Logo">
+            Rosales National High School
+        </h1>
+        <ul>
+            <li><a href="Map.html">Map</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="strands.html">Strands</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <h2>Welcome to Rosales National High School</h2>
+        <p>Providing quality education and preparing students for a brighter future.</p>
+    </div>
+    <div class="container">
+        <h1>Our School Facilities</h1>
+        <div class="facilities">
+            <div class="facility">
+                <img src="library.jfif" alt="Library">
+                <h3>Library</h3>
+                <p>A vast collection of books and digital resources for students.</p>
+            </div>
+            <div class="facility">
+                <img src="science-lab.jfif" alt="Science Lab">
+                <h3>Science Lab</h3>
+                <p>State-of-the-art laboratories for practical experiments.</p>
+            </div>
+            <div class="facility">
+                <img src="gymmm.jfif" alt="Sports Ground">
+                <h3>Sports Ground</h3>
+                <p>Spacious and well-maintained ground for various sports activities.</p>
+            </div>
+            <div class="facility">
+                <img src="comlab.jfif" alt="Computer Lab">
+                <h3>Computer Lab</h3>
+                <p>Modern computer labs with high-speed internet access.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

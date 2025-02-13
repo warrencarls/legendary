@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosales National High School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background: url('school-background.jpg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px;
+            width: 100%;
+        }
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar h1 {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            padding: 50px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .faculty-section {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .faculty-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .faculty-card {
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+        }
+        .faculty-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>
+            <img src="logo.png" alt="Rosales National High School Logo">
+            Rosales National High School
+        </h1>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="strands.html">Strands</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <h2>Welcome to Rosales National High School</h2>
+        <p>Providing quality education and preparing students for a brighter future.</p>
+    </div>
+    
+    <div class="faculty-section">
+        <h2>Meet Our Faculty</h2>
+        <div class="faculty-list">
+            <div class="faculty-card">
+                <img src="faculty1.jpg" alt="Faculty Member 1">
+                <h3>Dr. John Doe</h3>
+                <p>Principal</p>
+            </div>
+            <div class="faculty-card">
+                <img src="faculty2.jpg" alt="Faculty Member 2">
+                <h3>Ms. Jane Smith</h3>
+                <p>Mathematics Teacher</p>
+            </div>
+            <div class="faculty-card">
+                <img src="faculty3.jpg" alt="Faculty Member 3">
+                <h3>Mr. Robert Brown</h3>
+                <p>Science Teacher</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
